@@ -3,9 +3,10 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background: rgb(255, 255, 255);;
 }
-label {
-  text-transform: capitalize;
+select {
+  font-size: medium;
 }
 
 /* The styles for the parallax */
@@ -24,7 +25,7 @@ label {
   margin-top: 5px;
   color:green;
   animation: title .9s ;
-  animation-delay: 0.5s;
+  /* animation-delay: 0.5s; */
 }
 
 .well{
@@ -34,7 +35,7 @@ label {
 .hero p {
   opacity: 0;
   animation: subtitle .5s forwards linear;
-  animation-delay: 0.1s;
+  animation-delay: 0.5s;
 }
 
 
@@ -47,17 +48,6 @@ label {
 
   to {
     font-size: 3.5rem;
-    opacity: 1;
-  }
-}
-
-@keyframes smaller-title {
-  from {
-    opacity: 0;
-  }
-  
-  to {
-    font-size: 5.5rem;
     opacity: 1;
   }
 }
